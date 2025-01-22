@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    background: linear-gradient(to right, #0f0f0f, #1a1a2e, #16213e); 
+    color: #ffffff;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 80px; 
+    height: 100vh;
+    background: transparent; 
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* Sidebar Menu */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar ul li {
+    padding: 20px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #b0b0b0; 
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: .1em;
+    text-transform: none;
+    font-family: GRIFTER, sans-serif;
+}
+
+.sidebar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Soft glow on hover */
+    border-radius: 5px;
+}
+
+/* Styling for icons */
+.sidebar ul li a img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain; /* Ensures the image fits without distortion */
+}
+
+/* Main Content */
+.content {
+    margin-left: 100px; /* Adjust for sidebar */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.content {
+    text-align: center; /* Ensures all text inside is centered */
+}
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}.content ul li {
+    padding: 20px 0;
+    display: inline;
+}
+
+
+h1 {
+    font-size: 28px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3); /* Soft glow effect */
+    display: block; /* Allows full width for centering */
+    margin: 0 auto; /* Ensures proper alignment */
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    color: #e0e0e0; 
+}
+
+#info img{
+    height: 25px;
+    width: 25px;
+    margin-bottom: -5px;
+}
