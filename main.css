@@ -64,6 +64,16 @@ body {
 .content {
     text-align: center; /* Ensures all text inside is centered */
 }
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}.content ul li {
+    padding: 20px 0;
+    display: inline;
+}
+
 
 h1 {
     font-size: 28px;
@@ -76,4 +86,10 @@ h1 {
 p {
     font-size: 18px;
     color: #e0e0e0; 
+}
+
+#info img{
+    height: 25px;
+    width: 25px;
+    margin-bottom: -5px;
 }
