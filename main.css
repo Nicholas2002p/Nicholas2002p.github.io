@@ -141,8 +141,16 @@ html, body {
 }
 #arrow {
     width: 200px;
-    height: 250px; 
+    height: 250px;
     animation: glow 1.5s infinite alternate;
+}
+.content .navlink {
+    font-size: 30px;
+    color: #b0b0b0;
+    text-decoration-color: transparent;
+    position: relative;
+    margin-bottom: -40px;
+    
 }
 
 @keyframes glow {
@@ -154,15 +162,12 @@ html, body {
     }
 }
 
+
+
 /* Responsiveness */
 @media (max-width: 768px) {
     .navbar ul {
         gap: 15px;
-    }
-
-    .navbar ul li a {
-        font-size: 14px;
-        padding: 10px 15px;
     }
 
     .content h1 {
@@ -178,6 +183,7 @@ html, body {
         width: 25px;
     }
     /* Mobile Styles */
+}
 @media (max-width: 768px) {
     .navbar {
         width: 100% !important; 
@@ -216,4 +222,4 @@ html, body {
         font-size: 18px;
     }
 }
-}
+
