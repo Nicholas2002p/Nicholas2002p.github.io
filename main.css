@@ -165,6 +165,14 @@ h2{
         filter: drop-shadow(0 0 15px rgb(68, 179, 231));
     }
 }
+dt{
+    font-size: 35px;
+    color: #61c797;
+}
+
+dd .tech{
+    color: #b0b0b0;
+}
 
 
 
