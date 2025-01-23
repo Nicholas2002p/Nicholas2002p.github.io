@@ -10,7 +10,7 @@ body {
         #16213e 80%  /* Take longer to lighten fully */
     ); 
     min-height: 100vh; 
-    color: #ffffff;
+    color: #e0e0e0;
     line-height: 1.6;
     overflow-x: hidden; 
 }
@@ -97,17 +97,18 @@ html, body {
 
 .content h1 {
     font-size: 86px; 
-    color: #ffffff;
+    color: #e0e0e0;
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
     margin-bottom: 20px;
     margin-top: 0px;
     line-height: 1.2; 
 }
 .content #im {
-    font-size: 14px;
+    font-size: 24px;
     color: #61c797;
-    /* margin-right: 730px; */
+    margin-right: 730px;
     font-family: 'Lora', serif;
+    display:inline  
 }
 
 .content p {
@@ -129,7 +130,7 @@ html, body {
 .content ul li {
     padding: 10px;
     font-size: 18px;
-    color: #ffffff;
+    color: #e0e0e0;
 }
 
 /* Info Section Images */
@@ -146,11 +147,14 @@ html, body {
 }
 .content .navlink {
     font-size: 30px;
-    color: #b0b0b0;
+    color: #61c797;
     text-decoration-color: transparent;
     position: relative;
     margin-bottom: -40px;
     
+}
+h2{
+    font-size: 45px;
 }
 
 @keyframes glow {
@@ -158,7 +162,7 @@ html, body {
         filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
     }
     100% {
-        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 1));
+        filter: drop-shadow(0 0 15px rgb(68, 179, 231));
     }
 }
 
