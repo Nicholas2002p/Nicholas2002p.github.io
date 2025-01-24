@@ -157,6 +157,11 @@ h2{
     background-repeat: no-repeat;
     animation: bounce 1.5s infinite;
 }
+#me{
+    height: 200px;
+    position: absolute;
+    right: 0;
+}
   
   @keyframes bounce {
     0%, 100% {
@@ -260,5 +265,8 @@ dd {
     .content p {
         font-size: 18px;
     }
+        #me {
+            display: none;
+        }
 }
 
