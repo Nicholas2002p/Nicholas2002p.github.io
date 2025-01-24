@@ -140,10 +140,11 @@ html, body {
     vertical-align: middle;
     margin-right: 10px;
 }
-#arrow {
+.arrow {
     width: 200px;
     height: 250px;
     animation: glow 1.5s infinite alternate;
+    display: inline-block;
 }
 .content .navlink {
     font-size: 30px;
@@ -156,6 +157,20 @@ html, body {
 h2{
     font-size: 45px;
 }
+.scroll-down {
+    background-repeat: no-repeat;
+    animation: bounce 1.5s infinite;
+}
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform:  translateY(0);
+    }
+    50% {
+      transform:  translateY(10px);
+    }
+  }
+  
 
 @keyframes glow {
     0% {
@@ -165,6 +180,9 @@ h2{
         filter: drop-shadow(0 0 15px rgb(68, 179, 231));
     }
 }
+dl{
+    display: block;
+}
 dt{
     font-size: 35px;
     color: #61c797;
@@ -172,6 +190,19 @@ dt{
 
 dd .tech{
     color: #b0b0b0;
+}
+dd {
+    padding-bottom: 40px;
+}
+.content dl {
+    border: 6px solid transparent;  /* Base border */
+    border-radius: 15px;  /* Rounded edges */
+    padding: 15px; /* Inner spacing */
+    position: relative; /* Needed for some border effects */
+    background-color: rgba(26, 26, 46, 0.95); /* Keeps original background */
+    display: inline-block;
+    /* Gradient border */
+    border-image: linear-gradient(45deg, #ff7eb3, #8e44ad, #3498db) 1;
 }
 
 
