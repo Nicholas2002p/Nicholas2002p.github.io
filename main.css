@@ -160,7 +160,22 @@ h2{
 #me{
     height: 200px;
     position: absolute;
-    right: 0;
+    right: 300px;
+}
+/* Responsiveness */
+@media (max-width: 1800px) {
+    #me{
+        height: 200px;
+        position: absolute;
+        right: 0;
+    }
+}
+@media (max-width: 1200px) {
+    #me{
+        height: 100px;
+        position: absolute;
+        right: 0;
+    }
 }
   
   @keyframes bounce {
@@ -303,8 +318,13 @@ h3{
     .content p {
         font-size: 18px;
     }
-        #me {
-            display: none;
-        }
+    
+    #me{
+        height: 50px;
+        position: absolute;
+        right: 0;
+    }
+
+
 }
 
