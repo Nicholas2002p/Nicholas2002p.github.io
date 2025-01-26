@@ -82,6 +82,15 @@ html, body {
     transform: scale(1.2);
 }
 
+dd  a {
+    color:  #00FFFF; 
+    text-decoration: none;
+}
+
+dd  a:hover {
+    color: green; 
+    text-decoration: underline; 
+}
 
 /* Main Content Styling */
 .content {
@@ -129,13 +138,6 @@ html, body {
     color: #e0e0e0;
 }
 
-/* Info Section Images */
-#info img {
-    height: 30px;
-    width: 30px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
 .arrow {
     width: 200px;
     height: 250px;
@@ -162,6 +164,21 @@ h2{
     position: absolute;
     right: 300px;
 }
+#aboutP{
+    font-size: 20px;
+}
+#section1{
+    display: block;
+}
+video{
+    height: 200px;
+    width: 400px;
+}
+#medical{
+    height: 200px;
+    width: 400px;
+}
+
 /* Responsiveness */
 @media (max-width: 1800px) {
     #me{
@@ -255,6 +272,25 @@ h3{
     color: #61c797;
 }
 
+#aboutME {
+    display: flex;
+    flex-direction: row; /* Arrange children (sections) in a row */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: flex-start; /* Align items to the top */
+    flex-wrap: wrap; /* Ensure responsiveness */
+    gap: 20px; /* Add some spacing */
+}
+
+#aboutME section {
+    flex: 1; /* Allow sections to take equal width */
+    min-width: 300px; /* Prevent sections from becoming too small */
+}
+
+
+
+
+
+
 /* Responsive */
 @media (max-width: 768px) {
     .skill-icon {
@@ -275,10 +311,7 @@ h3{
         gap: 15px;
     }
 
-    #info img {
-        height: 25px;
-        width: 25px;
-    }
+
     /* Mobile Styles */
 }
 @media (max-width: 768px) {
