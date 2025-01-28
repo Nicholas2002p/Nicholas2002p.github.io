@@ -163,6 +163,10 @@ h2{
     height: 200px;
     position: absolute;
     right: 300px;
+    border-radius: 50%; /* Makes it circular */
+    overflow: hidden; /* Hides content outside the circular boundary */
+    object-fit: cover; /* Ensures the image scales properly */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Optional glow effect */
 }
 #aboutP{
     font-size: 20px;
@@ -171,12 +175,12 @@ h2{
     display: block;
 }
 video{
-    height: 200px;
-    width: 400px;
+    /* height: 200px; */
+    width: 600px;
 }
 #medical{
-    height: 200px;
-    width: 400px;
+    /* height: 200px; */
+    width: 600px;
 }
 
 /* Responsiveness */
@@ -219,6 +223,7 @@ dl{
 dt{
     font-size: 35px;
     color: #61c797;
+    padding-left: 50px;
 }
 
 dd .tech{
@@ -234,6 +239,7 @@ dd {
     position: relative; /* Needed for some border effects */
     background-color: rgba(26, 26, 46, 0.95); /* Keeps original background */
     display: inline-block;
+    padding-right: 50px;
     /* Gradient border */
     border-image: linear-gradient(45deg, #ff7eb3, #8e44ad, #3498db) 1;
 }
@@ -286,7 +292,9 @@ h3{
     min-width: 300px; /* Prevent sections from becoming too small */
 }
 
-
+em{
+    color: #00FFFF;
+}
 
 
 
