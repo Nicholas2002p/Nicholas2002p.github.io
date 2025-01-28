@@ -163,6 +163,10 @@ h2{
     height: 200px;
     position: absolute;
     right: 300px;
+    border-radius: 50%; /* Makes it circular */
+    overflow: hidden; /* Hides content outside the circular boundary */
+    object-fit: cover; /* Ensures the image scales properly */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Optional glow effect */
 }
 #aboutP{
     font-size: 20px;
