@@ -171,12 +171,12 @@ h2{
     display: block;
 }
 video{
-    height: 200px;
-    width: 400px;
+    /* height: 200px; */
+    width: 600px;
 }
 #medical{
-    height: 200px;
-    width: 400px;
+    /* height: 200px; */
+    width: 600px;
 }
 
 /* Responsiveness */
@@ -219,6 +219,7 @@ dl{
 dt{
     font-size: 35px;
     color: #61c797;
+    padding-left: 50px;
 }
 
 dd .tech{
@@ -234,6 +235,7 @@ dd {
     position: relative; /* Needed for some border effects */
     background-color: rgba(26, 26, 46, 0.95); /* Keeps original background */
     display: inline-block;
+    padding-right: 50px;
     /* Gradient border */
     border-image: linear-gradient(45deg, #ff7eb3, #8e44ad, #3498db) 1;
 }
@@ -286,7 +288,9 @@ h3{
     min-width: 300px; /* Prevent sections from becoming too small */
 }
 
-
+em{
+    color: #00FFFF;
+}
 
 
 
