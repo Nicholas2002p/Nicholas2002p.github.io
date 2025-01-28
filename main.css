@@ -365,6 +365,14 @@ em{
         position: absolute;
         right: 0;
     }
+    video{
+        /* height: 200px; */
+        width: 200px;
+    }
+    #medical{
+        /* height: 200px; */
+        width: 200px;
+    }
 
 
 }
